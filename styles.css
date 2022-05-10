@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+
+}
+.header{
+ background-color:#00796B;
+ color: #880E4F;
+ height: 100px;
+ width: 100%; 
+}
+.left{
+    width: 50%;
+    height: 50%;
+background-color: #880E4F;
+
+
+}
+right{
+width: 50%;
+height: 50%;
+background-color:#7E57C2;
+
+}

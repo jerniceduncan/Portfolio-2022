@@ -15,15 +15,17 @@ body {
   height: 45px;
   width: 100%;
 }
-.img_container{
-    position: relative;
-    text-align: center;
-    color: white;
+.centered{
+    position:absolute;
+  
+    color:whitesmoke;
+    font-size: xxx-large;
 }
 .middle_img {
   height: 550px;
   width: 100%;
   background-color: black;
-  
+  position:absolute;
+  text-align: center;
 }
 

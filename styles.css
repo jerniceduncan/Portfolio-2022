@@ -14,28 +14,22 @@ body {
   width: 100%;
 }
 
-.middle_img {
+.img_contanier {
   height: 550px;
   width: 100%;
   background-color: black;
-  text-align: center;
-  /* first */
-  /* Set the item you the child to be centered in */
-  position: relative;
+
+  /* using a div and setting a background image */
+  background: url("https://loremflickr.com/1080/720");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .centered {
-  position: absolute;
-
-  /* second */
-  /* Set margins - note: this syntax only works when positioning is set */
-  top: 50%;
-  left: 50%;
-
-  /* third */
-  /* Use transform translate to position */
-  transform: translate(-50%, -50%);
-
   color: whitesmoke;
   font-size: xxx-large;
 }

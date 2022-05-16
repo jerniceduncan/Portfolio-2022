@@ -8,24 +8,34 @@ body {
   justify-content: space-around;
   align-content: space-around;
   background-color: grey;
-
   border: 1px solid black;
   color: black;
-
   height: 45px;
   width: 100%;
 }
-.centered{
-    position:absolute;
-  
-    color:whitesmoke;
-    font-size: xxx-large;
-}
+
 .middle_img {
   height: 550px;
   width: 100%;
   background-color: black;
-  position:absolute;
   text-align: center;
+  /* first */
+  /* Set the item you the child to be centered in */
+  position: relative;
 }
 
+.centered {
+  position: absolute;
+
+  /* second */
+  /* Set margins - note: this syntax only works when positioning is set */
+  top: 50%;
+  left: 50%;
+
+  /* third */
+  /* Use transform translate to position */
+  transform: translate(-50%, -50%);
+
+  color: whitesmoke;
+  font-size: xxx-large;
+}
